@@ -1,0 +1,27 @@
+Dependencies for Project 'GPIO', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\main.c)(0x5EE8DFE3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IG:/KeilC/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IG:/KeilC/ARM/PACK/Keil/STM32L4xx_DFP/2.4.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/main.o -MD)
+I (G:\KeilC\ARM\PACK\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5E682E34)
+I (G:\KeilC\ARM\PACK\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5E682E34)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (G:\KeilC\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\PACK\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5E682E34)
+F (RTE\Device\STM32L476RGTx\startup_stm32l476xx.s)(0x5E682E34)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-I./RTE/_Target_1-IG:/KeilC/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IG:/KeilC/ARM/PACK/Keil/STM32L4xx_DFP/2.4.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 530" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32L476xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32l476xx.o)
+F (RTE\Device\STM32L476RGTx\system_stm32l4xx.c)(0x5E682E34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IG:/KeilC/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IG:/KeilC/ARM/PACK/Keil/STM32L4xx_DFP/2.4.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/system_stm32l4xx.o -MD)
+I (G:\KeilC\ARM\PACK\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5E682E34)
+I (G:\KeilC\ARM\PACK\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5E682E34)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (G:\KeilC\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (G:\KeilC\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (G:\KeilC\ARM\PACK\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5E682E34)
