@@ -21,22 +21,35 @@ Target DLL:      UL2CM3.DLL V1.163.3.0
 Dialog DLL:      TCM.DLL V1.42.0.0
  
 <h2>Project:</h2>
-D:\Download\STM32Register\GPIO\STM32FromRegister\GPIO\GPIO.uvprojx
-Project File Date:  06/16/2020
+D:\Download\STM32FromRegister\GPIO\GPIO.uvprojx
+Project File Date:  06/28/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.14', folder: 'G:\KeilC\ARM\ARMCLANG\Bin'
 Rebuild target 'Target 1'
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 assembling startup_stm32l476xx.s...
-main.c(30): warning: no newline at end of file [-Wnewline-eof]
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+main.c(4): warning: unused variable 'i' [-Wunused-variable]
+        char i;
+             ^
+main.c(3): warning: no previous prototype for function 'writeFlash' [-Wmissing-prototypes]
+void writeFlash(){
+     ^
+main.c(3): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void writeFlash(){
+^
+static 
+main.c(34): warning: no newline at end of file [-Wnewline-eof]
 }
  ^
-1 warning generated.
+3 warnings generated.
 compiling main.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 compiling system_stm32l4xx.c...
 linking...
 Program Size: Code=532 RO-data=408 RW-data=0 ZI-data=1632  
-".\Objects\GPIO.axf" - 0 Error(s), 1 Warning(s).
+".\Objects\GPIO.axf" - 0 Error(s), 6 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -62,9 +75,9 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.4.0
 
    * Component: Keil::Device:Startup:1.3.1
+      Include file:  Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h
       Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\arm\startup_stm32l476xx.s
       Source file:   MDK\Device\Source\ARM\STM32L4xx_DB_OPT.s
-      Include file:  Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h
       Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\system_stm32l4xx.c
 Build Time Elapsed:  00:00:01
 </pre>
