@@ -28,6 +28,24 @@ Project File Date:  06/28/2020
 *** Using Compiler 'V6.14', folder: 'G:\KeilC\ARM\ARMCLANG\Bin'
 Rebuild target 'Target 1'
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling main.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/misc.c(132): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    NVIC->IP[NVIC_InitStruct->NVIC_IRQChannel] = tmppriority;
+                                               ~ ^~~~~~~~~~~
+1 warning generated.
+compiling misc.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_crc.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_bkp.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_cec.c(145): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  tmpreg = CEC->CFGR;
+         ~ ~~~~~^~~~
+1 warning generated.
+compiling stm32f10x_cec.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_adc.c(23): warning: In file included from...
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_adc.h(64): warning: padding struct 'ADC_InitTypeDef' with 2 bytes to align 'ADC_ExternalTrigConv' [-Wpadded]
   uint32_t ADC_ExternalTrigConv;          /*!< Defines the external trigger used to start the analog
@@ -38,37 +56,6 @@ typedef struct
 2 warnings generated.
 compiling stm32f10x_adc.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-main.c(26): warning: array subscript is of type 'char' [-Wchar-subscripts]
-                FLASH_ProgramHalfWord(0x0807F800 + i*2, datasave[i]);
-                                                                ^~
-main.c(36): warning: array subscript is of type 'char' [-Wchar-subscripts]
-                dataread[i] = *(unsigned int *)(0x0807F800 + i*2);
-                        ^~
-main.c(36): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-                dataread[i] = *(unsigned int *)(0x0807F800 + i*2);
-                            ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main.c(38): warning: no newline at end of file [-Wnewline-eof]
-}
- ^
-4 warnings generated.
-compiling main.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/misc.c(132): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
-    NVIC->IP[NVIC_InitStruct->NVIC_IRQChannel] = tmppriority;
-                                               ~ ^~~~~~~~~~~
-1 warning generated.
-compiling misc.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_bkp.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_crc.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_cec.c(145): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-  tmpreg = CEC->CFGR;
-         ~ ~~~~~^~~~
-1 warning generated.
-compiling stm32f10x_cec.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_can.c(23): warning: In file included from...
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_can.h(145): warning: padding size of 'CanTxMsg' with 1 byte to alignment boundary [-Wpadded]
 typedef struct
@@ -78,9 +65,15 @@ compiling stm32f10x_can.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 compiling stm32f10x_dac.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_dma.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_flash.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_fsmc.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 compiling stm32f10x_dbgmcu.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_dma.c...
+compiling stm32f10x_gpio.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_exti.c(23): warning: In file included from...
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_exti.h(76): warning: padding size of 'EXTI_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
@@ -89,13 +82,18 @@ typedef struct
 1 warning generated.
 compiling stm32f10x_exti.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_flash.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_fsmc.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_gpio.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 compiling stm32f10x_iwdg.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_pwr.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+compiling stm32f10x_rtc.c...
+ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_sdio.c(23): warning: In file included from...
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_sdio.h(46): warning: padding size of 'SDIO_InitTypeDef' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+1 warning generated.
+compiling stm32f10x_sdio.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_i2c.c(23): warning: In file included from...
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_i2c.h(50): warning: padding size of 'I2C_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
@@ -104,18 +102,7 @@ typedef struct
 1 warning generated.
 compiling stm32f10x_i2c.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_pwr.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_rtc.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 compiling stm32f10x_rcc.c...
-ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_sdio.c(23): warning: In file included from...
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_sdio.h(46): warning: padding size of 'SDIO_InitTypeDef' with 3 bytes to alignment boundary [-Wpadded]
-typedef struct
-        ^
-1 warning generated.
-compiling stm32f10x_sdio.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_spi.c(23): warning: In file included from...
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_spi.h(87): warning: padding size of 'I2S_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
@@ -138,7 +125,15 @@ compiling stm32f10x_spi.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 assembling startup_stm32f10x_md.s...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-compiling stm32f10x_wwdg.c...
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_usart.c(23): warning: In file included from...
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_usart.h(50): warning: padding size of 'USART_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_usart.c(1043): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  itmask = ((uint16_t)0x01 << (uint16_t)bitpos);
+         ~  ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling stm32f10x_usart.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 RTE/Device/STM32F103C8/system_stm32f10x.c(167): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
 __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
@@ -149,15 +144,7 @@ __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9}
 1 warning generated.
 compiling system_stm32f10x.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_usart.c(23): warning: In file included from...
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_usart.h(50): warning: padding size of 'USART_InitTypeDef' with 2 bytes to alignment boundary [-Wpadded]
-typedef struct
-        ^
-G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_usart.c(1043): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
-  itmask = ((uint16_t)0x01 << (uint16_t)bitpos);
-         ~  ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
-2 warnings generated.
-compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
 ArmClang: warning: Unknown CUDA version 11.0. Assuming the latest supported version 10.1 [-Wunknown-cuda-version]
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_tim.c(23): warning: In file included from...
 G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(51): warning: padding size of 'TIM_TimeBaseInitTypeDef' with 1 byte to alignment boundary [-Wpadded]
@@ -179,7 +166,7 @@ G:/KeilC/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x
 compiling stm32f10x_tim.c...
 linking...
 Program Size: Code=560 RO-data=252 RW-data=0 ZI-data=1632  
-".\Objects\Flash.axf" - 0 Error(s), 51 Warning(s).
+".\Objects\Flash.axf" - 0 Error(s), 47 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -329,7 +316,7 @@ Package Vendor: Keil
    * Component: Keil::Device:StdPeriph Drivers:WWDG:3.5.0
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_wwdg.c
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_wwdg.h
-Build Time Elapsed:  00:00:06
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

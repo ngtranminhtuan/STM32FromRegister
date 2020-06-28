@@ -12,7 +12,7 @@ int main(){
 }
 
 void WriteFlash(){
-	char i;
+	unsigned char i;
 	// Mo khoa Flash cho phep xoa du lieu
 	FLASH_Unlock();
 	
@@ -30,9 +30,9 @@ void WriteFlash(){
 }
 
 void ReadFlash(){
-	char i;
+	unsigned char i;
 	for(i=0;i<100;i++){
 		//Doc 100 so 16 bit tu Flash ve
-		dataread[i] = *(unsigned int *)(0x0807F800 + i*2);
+		dataread[i] = *(uint16_t *)(0x0807F800 + i*2);
 	}
 }
