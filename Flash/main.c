@@ -4,8 +4,8 @@
 void WriteFlash(void);
 void ReadFlash(void);
 
-static uint16_t datasave[101];
-static uint16_t dataread[101];
+static unsigned short datasave[101];
+static unsigned short dataread[101];
 
 int main(){
 	
@@ -33,6 +33,6 @@ void ReadFlash(){
 	unsigned char i;
 	for(i=0;i<100;i++){
 		//Doc 100 so 16 bit tu Flash ve
-		dataread[i] = *(uint16_t *)(0x0807F800 + i*2);
+		dataread[i] = *(unsigned short *)(0x0807F800 + i*2);
 	}
 }
